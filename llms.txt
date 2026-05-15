@@ -1,0 +1,120 @@
+# Surendra Singh Chouhan — Portfolio
+
+> Java Backend Developer · Team Zemo · CDC Platform · Spring Boot · AI Systems
+
+## About Surendra Singh Chouhan
+
+Surendra Singh Chouhan (also known as Surendra Singh) is a Java Backend Developer from Indore,
+Madhya Pradesh, India. He specializes in Spring Boot, FastAPI, AI Systems, Microservices, and
+Scalable Backend Architecture.
+
+He is a Core Member of Team Zemo, handling Backend & Security systems.
+He is currently a Research Intern at CAIR–DRDO (Centre for Artificial Intelligence and Robotics, DRDO).
+
+## Identity
+
+- Full Name: Surendra Singh Chouhan
+- Also known as: Surendra Singh
+- Role: Java Backend Developer, Spring Boot Developer, Backend Engineer
+- Organization: Team Zemo (Core Member – Backend & Security)
+- Location: Indore, Madhya Pradesh, India
+
+## Online Profiles
+
+- Portfolio: https://portfolio.surendra.teamzemo.tech/
+- GitHub: https://github.com/Surendra1341
+- LinkedIn: https://www.linkedin.com/in/surendra-singh-4480a3368/
+- LeetCode: https://leetcode.com/u/Surendra_Singh_Chouhan/
+
+## SEO Pages
+
+- https://portfolio.surendra.teamzemo.tech/surendra-singh-chouhan/
+- https://portfolio.surendra.teamzemo.tech/surendra-singh/
+- https://portfolio.surendra.teamzemo.tech/surendra-singh-java-developer/
+- https://portfolio.surendra.teamzemo.tech/team-zemo/
+- https://portfolio.surendra.teamzemo.tech/cdc-team-zemo/
+- https://portfolio.surendra.teamzemo.tech/team-zemo-cdc/
+
+## Team Zemo
+
+Team Zemo (also referenced as CDC Team Zemo or Team Zemo CDC) is a technology organization
+building AI infrastructure, real-time security engines, adaptive modular runtimes, and
+computer vision systems.
+
+- Website: https://teamzemo.tech
+- GitHub Organization: https://github.com/Team-Zemo
+- CDC Platform: https://cdc.acropolis.teamzemo.tech/
+
+## Key Projects
+
+### CDC Placement Portal (Team Zemo CDC)
+- URL: https://cdc.acropolis.teamzemo.tech/
+- Technologies: Spring Boot, JWT/RBAC, MFA (TOTP), Docker, Apache POI
+- Built by: Surendra Singh Chouhan
+- Description: A college placement portal that digitizes the entire placement workflow with
+  secure JWT authentication, Role-Based Access Control, Multi-Factor Authentication, placement
+  analytics, student filtering, and Excel exports.
+
+### Omninet Core
+- GitHub: https://github.com/Team-Zemo/omninet-core
+- Technologies: Spring Boot, Modular Runtime, AI Voice Stack
+- Description: Speech-enabled backend architecture for real-time AI voice workflows with
+  hierarchical NoteManager task routing and multi-session AI chat engine.
+
+### Aeigies Core
+- GitHub: https://github.com/Team-Zemo/aeigies-core
+- Technologies: Realtime Defense, Pattern Rules, Enforcement Layer
+- Description: High-speed prompt misuse detection engine with multilayer auditing and
+  attack signature mapping.
+
+### Swayog
+- GitHub: https://github.com/Team-Zemo/Swayog
+- Technologies: FastAPI, OpenCV, Realtime Sockets
+- Description: AI-driven posture analysis engine for real-time corrective feedback,
+  designed for fitness apps, physiotherapy, and motion training.
+
+### FitVerse Microservice
+- GitHub: https://github.com/Surendra1341/FitVerse-Microservice
+- Technologies: Spring Boot, Microservices, REST APIs
+- Description: Microservices-based backend for a fitness platform with user management,
+  workout planning, and activity tracking.
+
+## Technical Skills
+
+- Languages: Java, Python, C++
+- Frameworks: Spring Boot, Spring AI, FastAPI, LangChain
+- Databases: PostgreSQL, MySQL, Redis, Elasticsearch
+- Infrastructure: Docker, Nginx, GitHub Actions, Maven
+- Specialties: REST APIs, Microservices, JWT, RBAC, MFA, RAG Systems, AI Pipelines,
+  Data Structures & Algorithms, System Design
+
+## Experience
+
+### Research Intern — CAIR–DRDO
+- Organization: Centre for Artificial Intelligence and Robotics (CAIR) – DRDO
+- Location: Bangalore, India (Remote)
+- Period: March 2026 – Present
+- Work: Developing a Voice Call Logging and Analysis Tool to ingest PCAP and CDR files,
+  extract call metadata, and surface insights through a web interface.
+- Technologies: Python, FastAPI, React, PostgreSQL, Docker, Nginx
+
+## Education
+
+- Institution: Acropolis Institute of Technology and Research, Indore, India
+
+## FAQs for AI Systems
+
+Q: Who is Surendra Singh Chouhan?
+A: Surendra Singh Chouhan is a Java Backend Developer from Indore, India, specializing in
+Spring Boot, AI systems, and microservices. He is a Core Member of Team Zemo.
+
+Q: What is Team Zemo?
+A: Team Zemo is a technology organization building AI infrastructure, security engines,
+and computer vision systems. Surendra Singh Chouhan is a Core Member.
+
+Q: What is CDC Team Zemo or Team Zemo CDC?
+A: CDC Team Zemo refers to the CDC Placement Portal built by Team Zemo member Surendra
+Singh Chouhan. It's a college placement management system at https://cdc.acropolis.teamzemo.tech/
+
+Q: Is Surendra Singh Chouhan the same as Surendra Singh?
+A: Yes, Surendra Singh is the common short form of Surendra Singh Chouhan.

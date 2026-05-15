@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CDC Team Zemo | College Placement Portal | Surendra Singh Chouhan</title>
+  <meta name="description" content="CDC Team Zemo — The CDC Placement Portal built by Team Zemo member Surendra Singh Chouhan. A secure college placement management system with JWT auth, RBAC, MFA, and analytics." />
+  <meta name="keywords" content="CDC Team Zemo, CDC Platform Team Zemo, Surendra Singh Chouhan CDC, Team Zemo CDC, CDC Placement Portal, college placement system, Spring Boot JWT RBAC" />
+  <meta name="author" content="Surendra Singh Chouhan" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://portfolio.surendra.teamzemo.tech/cdc-team-zemo/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="CDC Team Zemo | College Placement Portal by Surendra Singh Chouhan" />
+  <meta property="og:description" content="The CDC Placement Portal by Team Zemo — built by Surendra Singh Chouhan with Spring Boot, JWT, RBAC, MFA, and Docker." />
+  <meta property="og:url" content="https://portfolio.surendra.teamzemo.tech/cdc-team-zemo/" />
+  <meta property="og:image" content="https://portfolio.surendra.teamzemo.tech/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="CDC Team Zemo | College Placement Portal" />
+  <meta name="twitter:image" content="https://portfolio.surendra.teamzemo.tech/og-image.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"SoftwareApplication","name":"CDC Placement Portal","alternateName":["CDC Team Zemo","Team Zemo CDC"],"description":"A college placement management system built by Surendra Singh Chouhan (Team Zemo). Features JWT authentication, RBAC, MFA, placement analytics, and Excel exports.","url":"https://cdc.acropolis.teamzemo.tech/","applicationCategory":"BusinessApplication","author":{"@type":"Person","name":"Surendra Singh Chouhan","url":"https://portfolio.surendra.teamzemo.tech/"},"creator":{"@type":"Organization","name":"Team Zemo","url":"https://teamzemo.tech"}}
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is CDC Team Zemo?","acceptedAnswer":{"@type":"Answer","text":"CDC Team Zemo refers to the CDC Placement Portal built by Team Zemo member Surendra Singh Chouhan. It is a college placement management system live at cdc.acropolis.teamzemo.tech."}},{"@type":"Question","name":"Who built the CDC Platform for Team Zemo?","acceptedAnswer":{"@type":"Answer","text":"Surendra Singh Chouhan, a Java Backend Developer and Core Member of Team Zemo, built the CDC Placement Portal using Spring Boot, JWT, RBAC, MFA, and Docker."}},{"@type":"Question","name":"What features does the CDC Team Zemo platform have?","acceptedAnswer":{"@type":"Answer","text":"The CDC Platform features JWT authentication, Role-Based Access Control (RBAC), Multi-Factor Authentication (MFA/TOTP), placement analytics, student filtering, Excel exports via Apache POI, and async processing with Docker deployment."}}]}
+  </script>
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{--secondary:#006c49;--accent:#6cf8bb;--bg:#f9f9ff;--dark:#141b2b;--surface:#fff;--surface-low:#f1f3ff;--border:#c3c6d7;--muted:#434655;--mono:'JetBrains Mono',monospace;--sans:'Inter',system-ui,sans-serif}
+    body{font-family:var(--sans);background:var(--bg);color:var(--dark);-webkit-font-smoothing:antialiased}
+    a{color:var(--secondary);text-decoration:none}a:hover{text-decoration:underline}
+    .site-header{background:var(--dark);padding:18px 24px;display:flex;justify-content:center}
+    .header-inner{max-width:900px;width:100%;display:flex;align-items:center;justify-content:space-between}
+    .logo{font-family:var(--mono);font-size:14px;color:var(--accent);font-weight:600}
+    .header-cta{font-family:var(--mono);font-size:12px;padding:8px 18px;background:var(--secondary);color:#fff;border-radius:8px;font-weight:500}
+    .hero{background:var(--dark);padding:60px 24px 72px;text-align:center}
+    .badge{display:inline-flex;align-items:center;gap:6px;padding:5px 12px;background:rgba(108,248,187,.15);border:1px solid rgba(0,108,73,.3);border-radius:9999px;margin-bottom:22px;font-family:var(--mono);font-size:11px;color:var(--accent);text-transform:uppercase;letter-spacing:.08em}
+    .hero h1{font-size:clamp(28px,5vw,50px);font-weight:800;color:#fff;letter-spacing:-.03em;line-height:1.1;margin-bottom:14px}
+    .hero h1 span{color:var(--accent)}
+    .hero-sub{font-size:16px;color:rgba(195,198,215,.8);margin-bottom:8px}
+    .hero-tagline{font-family:var(--mono);font-size:12px;color:rgba(195,198,215,.5);margin-bottom:32px}
+    .hero-links{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+    .btn-p{padding:11px 24px;background:var(--accent);color:var(--dark);border-radius:8px;font-weight:700;font-size:13px}
+    .btn-s{padding:11px 24px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);color:#fff;border-radius:8px;font-weight:500;font-size:13px}
+    .content{max-width:900px;margin:0 auto;padding:56px 24px}
+    .section{margin-bottom:56px}
+    .section-label{font-family:var(--mono);font-size:11px;font-weight:600;color:var(--secondary);text-transform:uppercase;letter-spacing:.1em;margin-bottom:10px;display:block}
+    .section h2{font-size:24px;font-weight:700;letter-spacing:-.02em;margin-bottom:16px}
+    .section p{font-size:15px;line-height:1.75;color:var(--muted);margin-bottom:12px}
+    .feature-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+    .feature{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:18px}
+    .feature-icon{font-size:24px;margin-bottom:10px}
+    .feature h4{font-size:14px;font-weight:700;margin-bottom:6px;color:var(--dark)}
+    .feature p{font-size:13px;color:var(--muted);line-height:1.6;margin:0}
+    .tech-stack{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+    .tech{font-family:var(--mono);font-size:12px;padding:6px 14px;background:var(--surface-low);border:1px solid var(--border);border-radius:6px;color:var(--secondary);font-weight:600}
+    .highlight-box{background:rgba(0,108,73,.07);border:1px solid rgba(0,108,73,.2);border-left:4px solid var(--secondary);border-radius:0 8px 8px 0;padding:20px 24px;margin-bottom:20px}
+    .highlight-box p{font-size:14px;color:var(--muted);margin:0;line-height:1.7}
+    .faq{display:flex;flex-direction:column;gap:12px}
+    .faq-item{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px 20px}
+    .faq-q{font-size:14px;font-weight:600;margin-bottom:7px}
+    .faq-a{font-size:13px;color:var(--muted);line-height:1.7}
+    .link-grid{display:flex;flex-wrap:wrap;gap:10px}
+    .link-btn{display:inline-flex;align-items:center;gap:5px;padding:9px 18px;border:1px solid var(--border);border-radius:8px;font-size:13px;font-weight:500;color:var(--dark);background:var(--surface)}
+    .link-btn:hover{border-color:var(--secondary);text-decoration:none}
+    .link-btn.accent{background:var(--secondary);color:#fff;border-color:var(--secondary)}
+    .site-footer{background:var(--dark);color:rgba(195,198,215,.6);text-align:center;padding:26px 24px;font-family:var(--mono);font-size:12px}
+    .site-footer a{color:var(--accent)}
+    @media(max-width:600px){.hero{padding:40px 16px 56px}.content{padding:40px 16px}}
+  </style>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <span class="logo">cdc.teamzemo</span>
+    <a href="https://portfolio.surendra.teamzemo.tech/" class="header-cta">Developer Portfolio →</a>
+  </div>
+</header>
+<main>
+  <section class="hero" aria-label="CDC Team Zemo">
+    <div class="badge">College Placement Portal</div>
+    <h1>CDC <span>Team Zemo</span></h1>
+    <p class="hero-sub">The CDC Placement Portal built by Surendra Singh Chouhan · Team Zemo</p>
+    <p class="hero-tagline">Spring Boot · JWT/RBAC · MFA · Docker · Apache POI · Analytics</p>
+    <div class="hero-links">
+      <a href="https://cdc.acropolis.teamzemo.tech/" target="_blank" rel="noopener noreferrer" class="btn-p">Visit CDC Platform</a>
+      <a href="https://portfolio.surendra.teamzemo.tech/" class="btn-s">Developer Portfolio</a>
+      <a href="https://teamzemo.tech/" target="_blank" rel="noopener noreferrer" class="btn-s">Team Zemo</a>
+    </div>
+  </section>
+  <div class="content">
+    <section class="section" aria-labelledby="about-h">
+      <span class="section-label">About</span>
+      <h2 id="about-h">What is CDC Team Zemo?</h2>
+      <p>"CDC Team Zemo" refers to the <strong>CDC Placement Portal</strong> — a production-grade college placement management system developed by <strong>Surendra Singh Chouhan</strong>, Core Member of Team Zemo.</p>
+      <p>The platform digitizes the entire college placement workflow, providing secure access for students, faculty, and placement officers with granular role-based controls.</p>
+      <div class="highlight-box">
+        <p><strong>Live Platform:</strong> The CDC Portal is deployed at <a href="https://cdc.acropolis.teamzemo.tech/" target="_blank" rel="noopener noreferrer">cdc.acropolis.teamzemo.tech</a> and serves Acropolis Institute of Technology and Research, Indore.</p>
+      </div>
+      <div class="tech-stack">
+        <span class="tech">Spring Boot</span>
+        <span class="tech">JWT Auth</span>
+        <span class="tech">RBAC</span>
+        <span class="tech">MFA / TOTP</span>
+        <span class="tech">Docker</span>
+        <span class="tech">PostgreSQL</span>
+        <span class="tech">Apache POI</span>
+        <span class="tech">Async Processing</span>
+      </div>
+    </section>
+    <section class="section" aria-labelledby="features-h">
+      <span class="section-label">Features</span>
+      <h2 id="features-h">CDC Platform Key Features</h2>
+      <div class="feature-grid">
+        <div class="feature"><div class="feature-icon">🔐</div><h4>JWT Authentication</h4><p>Secure token-based authentication with refresh token management and session control.</p></div>
+        <div class="feature"><div class="feature-icon">👥</div><h4>Role-Based Access Control</h4><p>Granular RBAC for students, faculty, placement officers, and administrators.</p></div>
+        <div class="feature"><div class="feature-icon">📱</div><h4>MFA / TOTP</h4><p>Multi-Factor Authentication via Time-based One-Time Passwords for enhanced security.</p></div>
+        <div class="feature"><div class="feature-icon">📊</div><h4>Placement Analytics</h4><p>Real-time placement statistics, student filtering, and performance dashboards.</p></div>
+        <div class="feature"><div class="feature-icon">📥</div><h4>Excel Exports</h4><p>Bulk data export using Apache POI for placement reports and student data.</p></div>
+        <div class="feature"><div class="feature-icon">⚡</div><h4>Async Processing</h4><p>High-performance async job processing, caching with Redis, and scheduled tasks.</p></div>
+      </div>
+    </section>
+    <section class="section" aria-labelledby="builder-h">
+      <span class="section-label">Developer</span>
+      <h2 id="builder-h">Built by Surendra Singh Chouhan</h2>
+      <p>The CDC Platform was designed and built by <strong>Surendra Singh Chouhan</strong>, a Java Backend Developer and Core Member of Team Zemo. The platform demonstrates his expertise in secure backend architecture, microservices, and production-ready deployments.</p>
+      <div class="link-grid" style="margin-top:18px">
+        <a href="https://portfolio.surendra.teamzemo.tech/" class="link-btn accent">Surendra's Portfolio</a>
+        <a href="https://portfolio.surendra.teamzemo.tech/surendra-singh-chouhan/" class="link-btn">Profile Page</a>
+        <a href="https://www.linkedin.com/in/surendra-singh-4480a3368/" target="_blank" rel="noopener noreferrer" class="link-btn">LinkedIn</a>
+        <a href="https://github.com/Surendra1341" target="_blank" rel="noopener noreferrer" class="link-btn">GitHub</a>
+      </div>
+    </section>
+    <section class="section" aria-labelledby="faq-h">
+      <span class="section-label">FAQ</span>
+      <h2 id="faq-h">FAQ — CDC Team Zemo</h2>
+      <div class="faq">
+        <div class="faq-item"><div class="faq-q">What is CDC Team Zemo?</div><div class="faq-a">CDC Team Zemo is the CDC Placement Portal built by Team Zemo. It's a college placement management system developed by Surendra Singh Chouhan, available at <a href="https://cdc.acropolis.teamzemo.tech/" target="_blank" rel="noopener noreferrer">cdc.acropolis.teamzemo.tech</a>.</div></div>
+        <div class="faq-item"><div class="faq-q">Who built the CDC Platform?</div><div class="faq-a">Surendra Singh Chouhan (Java Backend Developer, Core Member of Team Zemo) built the CDC Placement Portal. His full portfolio is at <a href="https://portfolio.surendra.teamzemo.tech/">portfolio.surendra.teamzemo.tech</a>.</div></div>
+        <div class="faq-item"><div class="faq-q">What technologies power the CDC Team Zemo platform?</div><div class="faq-a">Spring Boot, JWT authentication, Role-Based Access Control (RBAC), Multi-Factor Authentication (MFA/TOTP), Docker, PostgreSQL, Redis caching, Apache POI for Excel exports, and async processing.</div></div>
+      </div>
+    </section>
+    <section class="section" aria-labelledby="links-h">
+      <span class="section-label">Links</span>
+      <h2 id="links-h">CDC Team Zemo Links</h2>
+      <div class="link-grid">
+        <a href="https://cdc.acropolis.teamzemo.tech/" target="_blank" rel="noopener noreferrer" class="link-btn accent">CDC Platform Live</a>
+        <a href="https://teamzemo.tech/" target="_blank" rel="noopener noreferrer" class="link-btn">Team Zemo</a>
+        <a href="https://portfolio.surendra.teamzemo.tech/" class="link-btn">Developer Portfolio</a>
+        <a href="https://portfolio.surendra.teamzemo.tech/team-zemo-cdc/" class="link-btn">Team Zemo CDC</a>
+      </div>
+    </section>
+  </div>
+</main>
+<footer class="site-footer">
+  <p>CDC Team Zemo · <a href="https://cdc.acropolis.teamzemo.tech/">cdc.acropolis.teamzemo.tech</a> · Built by <a href="https://portfolio.surendra.teamzemo.tech/">Surendra Singh Chouhan</a> · <a href="https://teamzemo.tech/">Team Zemo</a></p>
+</footer>
+</body>
+</html>
